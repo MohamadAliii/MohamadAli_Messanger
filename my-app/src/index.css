@@ -1,0 +1,377 @@
+ html {
+
+  height: 100%; 
+} 
+
+body {
+  
+  background-color: #F3EBF6;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif ;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+  
+.container{
+
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 0px;
+  box-shadow: 0px 15px 35px 10px rgba(0, 0, 0, 0.14);
+  margin: 18% auto;;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 40px 20px;
+  margin-right: -59%
+  /* padding-bottom: 0%; */
+  /* padding-left: 7%; */
+  /* padding-right: 7%; */
+
+}
+
+.title {
+
+  align-self: center;
+  color: #8C55AA;
+  text-shadow: 0.4px 0.2px;
+  font-weight: bold;
+  font-size: 30px; 
+  padding: 20px;
+  margin: -1%;
+  font-family: 'Ubuntu', sans-serif ;
+
+}
+
+label{
+  
+  color: #8C55AA;
+  font-size: 14px;
+  text-shadow: 0.2px 0.2px;
+  font-size: medium;
+  margin-left: 30px;
+
+}
+
+input {
+
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(38, 50, 56);
+  border: none;
+  border-radius: 22px;
+  background: rgba(136, 126, 126, 0.04);
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  /* margin-left: 46px; */
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 16px;
+  padding: 8px 2px;
+
+}
+
+button{
+
+  color:white ;
+  border-radius:20px ;
+  border: none;
+  background: linear-gradient(to right, #9C27B0, #E040FB);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10% ;
+
+}
+
+button:hover {
+  
+  background-color: white;
+  color:rgb(12, 1, 14)  ;
+
+}
+
+p:hover{
+
+  color: #9C27B0;
+}
+
+input:focus {
+
+  border-color: #9C27B0;
+
+}
+
+.main {
+
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 0px;
+  box-shadow: 0px 15px 35px 10px rgba(0, 0, 0, 0.14);
+  margin: 7em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px 20px;
+  margin-right: -59%
+}
+
+.titlelog {
+
+  color: #8C55AA;
+  text-align: center;
+  text-shadow: 0.4px 0.2px;
+  font-family: 'Ubuntu', sans-serif ;
+  font-weight: bold;
+  font-size: 24px; 
+  padding: 20px;
+
+}
+
+.inpe {
+
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 22px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  /* margin-left: 46px; */
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 16px;
+}
+
+.inpp {
+
+   color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 22px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  /* margin-left: 46px; */
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 16px;
+}
+
+.forget {
+    
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #E1BEE7;
+  text-decoration: none ;
+  text-align: center;
+  padding-top: 10%;
+  cursor: default;
+  
+}
+
+.chat-box {
+  display: flex;
+  background-color: #fff;
+  /* flex-grow: 3; */
+  flex-direction: column;
+  justify-content: space-between;
+  width: 710px;
+  height: 550px;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.18);
+  margin-left: 302px;
+
+}
+
+.chat-view {
+  display: flex;
+  background-color: white;
+  flex-grow: 1;
+  padding: 14px;
+}
+
+.header-chat {
+  background-color: #9C27B0;
+  height: 50px;
+}
+
+.footer-chat {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#9C27B0;
+  /* flex-grow: 1; */
+}
+
+.new-message-chat {
+  display: flex;
+  flex-grow: 1;
+  /* border: 1px solid; */
+  /* border-color: white; */
+  border-radius: 15px;
+  margin-right: 55px;
+  text-align: left;
+  font-weight: 500px;
+  background-color: #fff;
+}
+
+.sendicon {
+  height: 30px;
+  width: 35px;
+  margin-left: -48px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.chat-title {
+  text-align: center;
+  color: #fff;
+  margin : 8px
+}
+
+.contact-list {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 550px;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.18);
+  margin-top: -550px;
+  border-right: 2px solid #9C27B0;
+
+}
+
+.header-contact {
+  background-color: #9C27B0;
+  height: 50px;
+  border-right: 0.5px solid white;
+}
+
+.contact-screen {
+  display: flex;
+  background-color: #fff;
+  flex-grow: 1;
+  padding: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-title {
+  text-align: center;
+  color: #fff;
+  margin : 8px;
+}
+
+.loginlogo {
+  width: 200px;
+  height: 200px;
+  margin-top: -97%;
+  margin-right: -21%;
+  margin-bottom: 62%;
+  margin-left: -46%;
+}
+
+.signuplogo {
+  width: 220px;
+  height: 220px;
+  margin-top: -97%;
+  margin-right: -21%;
+  margin-bottom: 62%;
+  margin-left: -46%;
+}
+
+.mohamadali {
+  color: #9C27B0;
+}
+
+.userlogo {
+  width: 40px;
+  height: 40px;
+}
+.menu {
+  height: 50px;
+  background-color: #9C27B0;
+  color: #fff;
+  font-size: x-large;
+  margin-top: -58px;
+  padding: 14px;
+  width: 221px;
+
+}
+
+.wellcome-header {
+  background-color: #fff;
+  height: 350px;
+  width: 250px;
+  box-shadow: 0px 15px 35px 0px rgba(139, 4, 110, 0.18);
+  margin-top: -97px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -500px;
+
+}
+
+.logo {
+  width: 350px;
+  height: 350px;
+  margin-top: -335px;
+}
+
+.menulogo {
+  width: 50px;
+  margin-right: 147px;
+  margin-top: -150px;
+}
+
+.link , .link1 , .link2 {
+  text-decoration: none;
+  color: #9C27B0;
+  font-weight: bolder;
+  font-size: larger;
+}
+.link:hover{
+  color: black;
+}
+.link1:hover{
+  color: black;
+}
+.link2:hover{
+  color: black;
+}
