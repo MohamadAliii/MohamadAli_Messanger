@@ -1,8 +1,8 @@
 import React from 'react'
-// import {connect} from 'react-redux'
+import {connect} from 'react-redux'
 
 
-export default class ChatView extends React.Component {
+class ChatView extends React.Component {
     
     render(){
         return(
@@ -14,8 +14,8 @@ export default class ChatView extends React.Component {
 
 }
 
-// const mapStateToProps = (state)=> ({
-//     newMessage: state.newMessage
-// })
+const mapStateToProps = (state)=> ({
+    newMessage: state.newMessage
+})
 
-// export default connect(mapStateToProps)(ChatView)
+export default connect(mapStateToProps)(ChatView)

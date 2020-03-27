@@ -1,5 +1,5 @@
 const Init = {
-    name: 'mmm',
+    name: '',
     newMessage : ''
 }
 
@@ -7,8 +7,8 @@ export default function conversation (state = Init, action){
     switch (action.type){
         case 'SAVE-USERNAME':
             return {
-                ...state
-                // name: action.payload
+                ...state ,
+                name: action.payload
             }
         
         case 'SEND_NEW_MESSAGE':
